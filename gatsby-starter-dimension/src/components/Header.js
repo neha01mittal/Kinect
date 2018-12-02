@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import Form_info from '../components/Form'
 
 const Header = (props) => (
     <header id="header" style={props.timeout ? {display: 'none'} : {}}>
@@ -9,7 +10,7 @@ const Header = (props) => (
         <div className="content">
             <div className="inner">
                 <h1>ROADMAP</h1>
-                <h5>Effective workflow management for your outsourced projects</h5>
+                <h5>Hasslefree Project Outsourcing.</h5>
             </div>
         </div>
         <nav>
@@ -20,6 +21,13 @@ const Header = (props) => (
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('contact')}}>Contact us</a></li>
             </ul>
         </nav>
+
+        <div className="container">
+        <Form_info>
+            Please fill out
+        </Form_info>
+
+        </div>
     </header>
 )
 
