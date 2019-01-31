@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import pic01 from '../images/howitworks.png'
 import pic02 from '../images/mahmoud_pic.jpg'
 import pic03 from '../images/neha_pic.jpg'
+import pic04 from '../images/conner_pic.jpg'
 
 class Main extends React.Component {
     constructor(props) {
@@ -61,14 +62,15 @@ class Main extends React.Component {
                 <tr>
                     <td> <span className=""><img src={pic03} width={130} height={180} alt="Desi Girl" /></span></td>
                     <td> <span className=""><img src={pic02} width={130} height={180} alt="Hamsho" /></span></td>
+                    <td> <span className=""><img src={pic04} width={130} height={180} alt="Hunihan" /></span></td>
 
                 </tr>
 
                 <tr>
                 <td><p><strong>Neha Mittal</strong></p>
-                        <p>Neha's passion in Education Technology goes back to her undergraduate days when she founded a
+                        <p>Neha's passion in Ed-Tech goes back to her college days when she founded a
                         startup focused on bringing IT education to underprivileged children. She worked in the Learning
-                        platform space at the Chan Zuckerberg Initiative soon after which is where she identified
+                        platform space at the Chan Zuckerberg Initiative soon after where she identified
                         the advantages of project based learning and the existing gaps between students and Nonprofits.
                     </p></td>
 
@@ -77,6 +79,12 @@ class Main extends React.Component {
                         worked as a Data Scientist at a IoT security startup (Intertrust Technologies). As a researcher for the California Statewide Database,
                         he is conducting user research on redistricting information accessibility and helping design models to lower the barrier to participating in California
                         redistricting.
+                    </p>
+
+                    </td>
+
+                    <td><p><strong>Conner Hunihan</strong></p>
+                       <p>As an Environmental Scientist undergraduate, Conner began his career studying systems on a global scale. However, it was his experience developing small business initiatives in the Peace Corps that showed him the power of user-centered design. He has since focused his career on the creation of user experiences, creating a storytelling platform for the Nueva School, improving student enrollment as a UX Designer at CalCentral, and reimagining big data experiences at Autodesk.
                     </p>
 
                     </td>
